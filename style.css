@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background: #fffaf1;
+  color: #3d332d;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: min(1100px, calc(100% - 40px));
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.brand {
+  color: #4b2e23;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button-primary {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #c96f4a;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+}
